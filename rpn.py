@@ -5,6 +5,7 @@
 #test again
 
 import readline
+from termcolor import colored, cprint
 import operator
 
 operators = {
@@ -24,7 +25,7 @@ def calculate(arg):
             function = operators[token]
             arg2 = stack.pop()
             arg1 = stack.pop()
-            result = function(arg1, arg2)
+            result = colored(function(arg1, arg2), 'red')
             stack.append(result)
         
         #print(stack)
@@ -35,7 +36,9 @@ def calculate(arg):
 
 def main():
     while True:
-        result = calculate(input("rpn calc> "))
+        userInput = input("rpn calc> ")
+        cprint(userInput, 'green')
+        result = calculate(userInput)
         print(result)
 
 if __name__ == '__main__': # Note: that's "underscore underscore n a m e ..."
