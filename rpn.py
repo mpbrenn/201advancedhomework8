@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 
 #testing travis again
-#testing coverage
 
-#test coverage
-import math
+
 
 import operator
 
