@@ -2,6 +2,9 @@
 
 #test again
 
+#test import for travis?
+import math
+
 import operator
 
 operators = {
