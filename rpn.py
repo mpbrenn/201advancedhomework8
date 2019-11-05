@@ -4,6 +4,7 @@
 
 #test again
 
+import readline
 import operator
 
 operators = {
