@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
-#test again
-
-#test import for travis?
-import math
+#testing travis again
 
 import operator
 
