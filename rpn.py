@@ -3,6 +3,9 @@
 #testing travis again
 #testing coverage
 
+#test coverage
+import math
+
 import operator
 
 operators = {
